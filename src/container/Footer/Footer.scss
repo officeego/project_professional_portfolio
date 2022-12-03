@@ -1,4 +1,5 @@
 .app__footer {
+  // background-color: #2430af;
   flex: 1;
   width: 100%;
   flex-direction: column;
@@ -40,10 +41,12 @@
     p {
       font-weight: 500;
     }
+
     a {
       text-decoration: none;
       font-weight: 500;
     }
+
     &:hover {
       box-shadow: 0 0 25px #fef4f5;
     }
@@ -55,6 +58,7 @@
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    align-items: center;
   }
 }
 
@@ -127,4 +131,9 @@
     width: 100%;
     margin: 1rem 0;
   }
+}
+
+//
+.head-texts {
+  font-size: small;
 }

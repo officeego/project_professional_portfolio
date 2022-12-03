@@ -102,6 +102,7 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  // background-color: rgba(255, 0, 0, 0.12);
 
   padding: 1rem;
 
@@ -148,6 +149,11 @@
   }
 }
 
+.my-socials {
+  color: red;
+  font-style: oblique;
+}
+
 .app__navigation {
   display: flex;
   justify-content: center;
@@ -177,6 +183,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
   .app__navigation,
   .app__social {
     display: none;

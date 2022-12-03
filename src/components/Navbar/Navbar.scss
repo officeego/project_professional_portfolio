@@ -6,13 +6,25 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
+  // background: #063c1e2a;
+  background: url("../../assets/headlogo.png");
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
   z-index: 2;
+}
+
+.logo-ego {
+  background-color: rgba(0, 128, 0, 0.111);
+  // margin: 5px;
+  // padding: 5px;
+  color: tomato;
+  font-size: 20px;
+  font-style: italic;
+  box-shadow: 5px 5px 5px gold;
+  border-radius: 20px;
 }
 
 .app__navbar-logo {
@@ -36,6 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  // font-style: oblique;
 
   list-style: none;
 
@@ -46,10 +59,12 @@
     flex-direction: column;
 
     div {
-      width: 5px;
-      height: 5px;
+      // width: 5px;
+      width: 35px;
+      height: 3px;
       background: transparent;
-      border-radius: 50%;
+      // border-radius: 50%;
+      border-radius: 35%;
 
       margin-bottom: 5px;
     }
@@ -110,13 +125,13 @@
 
     width: 80%;
     height: 100vh;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
-    background: url('../../assets/bgWhite.png');
+
+    background: url('../../assets/profile.png');
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
