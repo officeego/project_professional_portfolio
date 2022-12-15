@@ -36,7 +36,8 @@ const Header = () => (
         <div className="tag-cmp app__flex">
           <p className="p-text">Web Developer</p>
           <p className="p-text">&</p>
-          <p className="p-text">Freelancer</p>
+          {/* <p className="p-text">Freelancer</p> */}
+          <p className="p-text">Coding Instructor</p>
         </div>
         <div className="description-info">
           <p>Hi, i,m Ego, a creative FullStack Web Developer participating in complete project development lifecycle of successfully launched applications, seeking to use my proven skills in Project Management to meet your business needs !!!!</p>

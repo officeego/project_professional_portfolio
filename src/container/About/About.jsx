@@ -20,6 +20,8 @@ const About = () => {
     <>
       {/* <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2> */}
       <h2 className="head-text">I understand a <span>good website</span> <br />means  <span>great success</span></h2>
+      <p className="about_me">I.m Ego a creative web developer i stand on a sweet spot where designs and coding intersects</p>
+      <p className="about_me">Working with brave clients to inspire people through, is what i admire</p>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
